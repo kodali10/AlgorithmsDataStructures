@@ -2,8 +2,7 @@ package stringPalindrome;
 
 public class StringPalindrome{
 
-	public static void main(String[] args) {
-		String word = "Kayak";
+	public void isPalindrome(String word) {
 		char [] wordArr = word.toCharArray();
 		int wordArrLength = wordArr.length;
 		boolean isPalindrome = true;
