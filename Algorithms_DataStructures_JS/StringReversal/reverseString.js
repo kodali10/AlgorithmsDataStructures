@@ -17,6 +17,8 @@ console.log(reverseString('Hello'));
 */
 //Method 3
 function reverseString(str){
+//The reduce() method applies a function against an accumulator and each element in the array
+//(from left to right) to reduce it to a single value
   return str.split('').reduce((reversed, char) => char+reversed, '');
 }
 console.log(reverseString('Hello'));
